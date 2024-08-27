@@ -3,7 +3,7 @@ package creator
 import model.Character
 import model.Race
 
-class   DefaultCharacterCreator : CharacterCreator {
+class DefaultCharacterCreator : CharacterCreator {
     override fun createCharacter(race: Race): Character {
         val attributes = mutableMapOf(
             "Força" to 8,

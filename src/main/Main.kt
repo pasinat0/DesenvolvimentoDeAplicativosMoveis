@@ -6,8 +6,8 @@ import creator.DefaultCharacterCreator
 
 fun main() {
     val races = mapOf(
-        "Humano" to Humano(),
-        "Elfo" to Elfo(),
+        "Humano" to Human(),
+        "Elfo" to Elf(),
         "Anão" to Dwarf(),
         "Halfling" to Halfling()
     )
